@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+table{border-collapse:collapse;border-spacing:0}
+.sans_serif{font-family:Helvetica,sans-serif}
+.serif{font-family:'Rokkitt',serif}
+.left{float:left}
+.right{float:right}
+.clear{clear:both}
+h1,h2{line-height:1.5em}
+a{text-decoration:none;color:inherit}
+p,li{line-height:1.5em}
+button,.button{border:none;padding:.6em 2em;text-align:center;font-size:inherit;background-color:#00a38c;color:#fff;font-weight:100;cursor:pointer;-webkit-appearance:none;border-radius:2px;-webkit-transition:background-color 150ms ease-in-out;-moz-transition:background-color 150ms ease-in-out;-ms-transition:background-color 150ms ease-in-out;-o-transition:background-color 150ms ease-in-out}button:hover,.button:hover,button:active,.button:active{background-color:#008a76}
+input{-webkit-appearance:none}
+hr{height:1px;background-color:rgba(255,255,255,0.5);border:none;width:70%;margin:2em auto;display:block}
+.desktop{display:none}
+.social{display:none !important}.social li{display:inline}.social li a{display:block;float:left;margin-left:.6em;width:1.8em;height:1.8em;border-radius:50em;background-color:#502452;text-align:center;line-height:1.8em;vertical-align:middle}.social li a.facebook:hover{background-color:#405d9b}
+.social li a.twitter:hover{background-color:#00aced}
+.social li a.pinterest:hover{background-color:#cb2027}
+.desktop{display:none}
+img{width:100%}
+.wrapper{max-width:1100px;margin:0 auto}
+*{padding:0;margin:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html{-webkit-text-size-adjust:none;font-size:17px;font-family:Helvetica,sans-serif}
+body{min-width:320px}
+header h1{margin:1em;text-align:center}
+header a.phone{display:block;text-align:center;font-size:2em;margin:0 0 .4em;color:#733376}
+header button.nav_toggle{margin:4em 0 0;color:#128fb9}
+button.nav_toggle{position:absolute;top:.2em;right:.2em;width:1.4em;height:1.4em;padding:0;font-size:1.4em;background-color:transparent}
+nav li{display:block;width:50%;float:left;border-bottom:1px solid rgba(255,255,255,0.24);background-color:#733376;-webkit-transition:background-color 150ms ease-in-out;-moz-transition:background-color 150ms ease-in-out;-ms-transition:background-color 150ms ease-in-out;-o-transition:background-color 150ms ease-in-out}nav li:nth-child(2n + 2){border-left:1px solid rgba(255,255,255,0.24)}
+nav li:hover,nav li.selected{background-color:#502452}
+nav li a{display:block;padding:.6em 1em .4em;font-size:1em;color:#fff}
+main{padding:2em 0;width:98%;margin:0 auto}
+section.showcase figure{position:relative}section.showcase figure figcaption{position:absolute;bottom:2em;background-color:rgba(115,51,118,0.7);color:#fff;width:100%;padding:.6em}section.showcase figure figcaption h1{font-family:'Rokkitt',serif;font-size:2em;line-height:1em}
+section.showcase figure figcaption p{font-weight:100;line-height:1em}
+section.content h1{font-size:1.4em;font-family:'Rokkitt',serif}
+aside{padding:2em 0 0}aside figure{padding:1em;text-align:center;margin:0 0 2em}aside figure h1{font-size:2em;font-family:'Rokkitt',serif}
+aside figure button{margin:.74em auto;text-transform:uppercase;border-bottom:3px solid #007060;border-radius:4px}
+section.top_footer{padding:2em 0 1em;background-color:#733376;color:#fff}section.top_footer img.mark{display:none;width:6em}
+section.top_footer form{width:80%;margin:0 auto}section.top_footer form input{width:100%;padding:.8em;margin-bottom:1em;border:1px solid #502452}
+section.top_footer ul{display:none}section.top_footer ul.social{display:block}
+footer{background-color:#502452;color:#fff;font-size:.8em;padding:1em .2em .2em}footer li{margin-bottom:1em}footer li a{display:block;padding:1em}footer li a:hover{background-color:#007060}
+.mq-tracker{display:none;position:fixed;top:0;left:0;width:100%;height:40px;background-color:#000;color:#fff;z-index:1000000}.mq-tracker:after{content:"default";padding:10px;position:absolute}
+@media screen and (min-width:480px){.mq-tracker{background:#f00}.mq-tracker:after{content:"min-width: 480px"}}@media screen and (min-width:640px){.mq-tracker{background:#008000;color:#000}.mq-tracker:after{content:"min-width: 640px"} header h1{text-align:left;float:left} header a.phone{float:right;margin:1.55em 1em 0 0} aside figure{width:48%;float:left}aside figure:nth-child(1){margin-right:4%} section.top_footer img.mark{display:block;float:left;width:24%} section.top_footer ul{display:block;float:left;width:40%;padding-left:1em;margin-top:1em}section.top_footer ul li{display:inline-block;width:42%;margin-right:4%;padding:.4em 0} section.top_footer form{margin-top:1em;float:right;width:36%;padding-right:1em} footer hr.mobile{display:none} footer ul.contact_info{float:left} footer ul.hours{float:right;text-align:right}}@media screen and (min-width:800px){.mq-tracker{background:#00f}.mq-tracker:after{content:"min-width: 800px"} main,nav,header,.wrapper{max-width:960px;display:block;margin:0 auto} nav{display:block;border:1px solid #2e142f}nav li{display:block;float:left;border:1px solid #2e142f;border-bottom:none;border-top:none;padding:.4em 0;text-align:center;width:12.5%}nav li a{padding:0;font-size:.9em} section.showcase{width:61%;float:left;margin-right:4%} aside{width:35%;float:left;padding:0}aside figure{width:100%} section.content h1{font-size:2.6em;float:left;width:30%} section.content p{width:70%;float:left;padding-left:2em}}@media screen and (min-width:960px){.mq-tracker{background:#808080}.mq-tracker:after{content:"min-width: 960px"} section.content h1{font-size:3.4em} nav li a{font-size:1em}}@media screen and (min-width:1200px){.mq-tracker{background:#800000}.mq-tracker:after{content:"min-width: 1200px"}}
